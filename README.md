@@ -101,7 +101,7 @@ This UI represents stock synchronization between aCommerce and Marketplace.
 7. Click search
 
 Example Result the final screen
-<PIC>
+![Alt text](ScreenShot1.png?raw=true "Title")
 
 
 #### ** CHALLENGES! **
