@@ -56,7 +56,7 @@ Customer buy "Product X" with 5 quantity when 11-11-2021 09:30AM
 - Sales Order amount(1,250) - 10% Discount (125) = 1,125
 - Excluded delivery fee
 
-Expected = the system will be applied “Promotion C” to sales order.
+Expected = the system will be applied “Promotion B” to sales order.
 ```
 
 #### CHALLENGES!
