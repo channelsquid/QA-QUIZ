@@ -67,27 +67,52 @@ You are the QA who is testing this feature. What scenarios need to be tested.
 ## SECTION 2 - Test Automation
 #### 2.1 Automation Test RESTful API
 
-This API is for external services to retrieving the latest quantity that aCommerce allocated stock to the Marketplace.
+This API is for external services to retrieve the latest quantity that aCommerce allocated stock to the Marketplace.
 ```
 Method: GET
-URL: https://fulfillment.api.acommerce.asia/channel/lazada-th/allocation/merchant/1338?page=1&page_size=100```
+URL: https://fulfillment.api.acommerce.asia/channel/lazada-th/allocation/merchant/334?page=1&page_size=100```
 Headers: 
 - X-Subject-Token:{{token_id}}
 ```
-This API require headers token. The token will be generate and send to you when quiz starting.
-
+Example Response
+```
+  Response Code: 200
+  [
+    {
+        "qty": "0",
+        "sku": "SKU0001",
+        "updatedTime": "2021-08-05T10:20:12.053457Z"
+    },
+    {
+        "qty": "0",
+        "sku": "SKU0002",
+        "updatedTime": "2021-08-05T10:20:12.093643Z"
+    },
+    {
+        "qty": "0",
+        "sku": "SKU0003",
+        "updatedTime": "2021-08-05T10:20:12.121762Z"
+    },
+    {
+        "qty": "0",
+        "sku": "SKU0004",
+        "updatedTime": "2021-08-05T10:20:12.150911Z"
+    },
+    {
+        "qty": "0",
+        "sku": "SKU0005",
+        "updatedTime": "2021-08-05T10:20:12.180933Z"
+    },
+    ....
+    ..
+    .
+]
+  ```
+  
 #### ** CHALLENGES! **
-1. Create automation test script that be able to execution to get the value from this API endpoint.
-2. Find sku “9120160422001” from response and write the value to log file or log console as below format.
-3. Write the result on log file or log console.
+1. Create automation test script to testing this API Endpoint at least 10 test cases
 
-Example Result in Log Console
-```
-|sku           | qty |
-|--------------|-----|
-|9120160422001 | 1   |
-```
-
+---
 ### 2.2 Automation Test UI
 This UI represents stock synchronization between aCommerce and Marketplace.
 
