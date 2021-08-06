@@ -40,7 +40,7 @@ Let's say 11.11 Campaign is coming! There are 3 promotions on campaign day
 
 ##### Example 1
 ```
-Customer buy "Product X" with 1 quntity when 11-11-2021 02:00AM
+Customer buy "Product X" with 1 quantity when 11-11-2021 02:00AM
 - Product X (250B) * 1 qty = 250B
 - No Discount
 - Included Delivery fee (+50)
@@ -51,7 +51,7 @@ Expected = The system will be applied “Promotion A” to sales order.
 
 ##### Example 2
 ```
-Customer buy "Product X" with 5 quntity when 11-11-2021 09:30AM 
+Customer buy "Product X" with 5 quantity when 11-11-2021 09:30AM 
 - Product X (250B) * 5 qty = 1,250
 - Sales Order amount(1,250) - 10% Discount (125) = 1,125
 - Excluded delivery fee
