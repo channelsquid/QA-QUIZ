@@ -70,10 +70,11 @@ You are the QA who is testing this feature. What scenarios need to be tested.
 This API is for external services to retrieve the latest quantity that aCommerce allocated stock to the Marketplace.
 ```
 Method: GET
-URL: https://fulfillment.api.acommerce.asia/channel/lazada-th/allocation/merchant/334?page=1&page_size=100```
+URL: https://fulfillment.api.acommerce.asia/channel/lazada-th/allocation/merchant/334?page=1&page_size=100
 Headers: 
 - X-Subject-Token:{{token_id}}
 ```
+  
 Example Response
 ```
   Response Code: 200
@@ -107,7 +108,7 @@ Example Response
     ..
     .
 ]
-  ```
+```
   
 #### ** CHALLENGES! **
 1. Create automation test script to testing this API Endpoint at least 10 test cases
