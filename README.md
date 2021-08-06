@@ -59,7 +59,7 @@ Customer buy "Product X" with 5 quntity when 11-11-2021 09:30AM
 Expected = the system will be applied “Promotion C” to sales order.
 ```
 
-#### ** CHALLENGES! **
+#### CHALLENGES!
 You are the QA who is testing this feature. What scenarios need to be tested. 
 1. Create a test case (Prefer excel or google sheet format). You can design your own test case template.
 2. Estimation resource and time to testing. (Let's say you have to implement automation testing from this test case)
@@ -110,31 +110,6 @@ Example Response
 ]
 ```
   
-#### ** CHALLENGES! **
-1. Create automation test script to testing this API Endpoint at least 10 test cases
-
----
-### 2.2 Automation Test UI
-This UI represents stock synchronization between aCommerce and Marketplace.
-
-#### Instruction
-1. Go to URL `https://portal.acommerce.asia/channel/inventories`
-2. Selecting Channel `Lazada Thailand`
-3. Selecting Seller `OMRON THAILAND`
-4. Change "Allocation Result" from "Failed" -> "Success"
-5. Copy first Product SKU that displayed on the table
-6. Search that sku on Product SKU seach box
-7. Click search
-
-Example Result the final screen
-![Alt text](ScreenShot1.png?raw=true "Title")
-
-
-#### ** CHALLENGES! **
-1. Create automated test script that can be executed follow the instruction.
-
----
-
-#### FINISHED CHALLENGES
-1. Write the README file and describe how to set up your automation testing tools(Prefer Robot Framwork) and how to execute (Depends on your tools). Please describe the step seems you have to share this code to anyone who without a background.
-2. Push the automation code to GitHub repository and send us a link.
+#### CHALLENGES!
+1. Create automation test script to testing this API Endpoint at least 10 test cases (Prefer Robot Framework tools). Otherwise, you can choose any tools that you prefer
+2. After finished the quiz push the code to GitHub repository and send us a link.
