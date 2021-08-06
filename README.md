@@ -9,7 +9,7 @@ There are 2 challenges included
 ## SECTION 1 - Test Case Design
 
 aCommerce provide End-to-End Ecommerce service. The first is "Gift With Purchase(GWP)" to manage promotion on the Marketplace. 
-The second is "Order Fulfillment service" to processing the salesorder from Marketplace
+The second is "Order Fulfillment Service" to processing the salesorder from Marketplace
 
 #### Requirements
 The feature indicates the promotion when sales orders arriving.
@@ -70,7 +70,7 @@ You are the QA who is testing this feature. What scenarios need to be tested.
 This API is for external services to retrieve the latest quantity that aCommerce allocated stock to the Marketplace.
 ```
 Method: GET
-URL: https://fulfillment.api.acommerce.asia/channel/lazada-th/allocation/merchant/334?page=1&page_size=100
+URL: https://inventory.example.com/channel/<channel_id>/allocation/merchant/<partner_id>?page=1&page_size=100
 Headers: 
 - X-Subject-Token:{{token_id}}
 ```
