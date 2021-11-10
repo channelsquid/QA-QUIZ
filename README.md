@@ -61,8 +61,9 @@ Expected = the system will be applied “Promotion B” to sales order.
 
 #### CHALLENGES!
 You are the QA who is testing this feature. What scenarios need to be tested. 
-1. Create a test case (Prefer excel or google sheet format). You can design your own test case template.
+1. Create a test case (Prefer excel or google sheet format). Feel free to design your own template.
 2. Estimation resource and time to testing. (Let's say you have to implement automation testing from this test case)
+3. Attach the test case link together with the next challenges.
 
 ## SECTION 2 - Test Automation
 #### 2.1 Automation Test RESTful API
@@ -111,6 +112,6 @@ Example Response
 ```
   
 #### CHALLENGES!
-1. Use appropoate automation tools to create automation test script to testing this API Endpoint at least 10 test cases.
+1. Use appropiate automation tools to create automation test script to testing this API Endpoint at least 10 test cases.
 2. Write the README file and describe how to set up your automation testing tools(Depends on your tools). Please describe the step seems you have to share this code to anyone who without a background.
 3. After finished the quiz push the code to GitHub repository and send us a link.
