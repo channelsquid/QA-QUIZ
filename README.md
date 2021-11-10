@@ -111,6 +111,6 @@ Example Response
 ```
   
 #### CHALLENGES!
-1. Create automation test script to testing this API Endpoint at least 10 test cases.(Prefer Robot Framwork). Otherwise, you can choose any tools that you prefer.
+1. Use appropoate automation tools to create automation test script to testing this API Endpoint at least 10 test cases.
 2. Write the README file and describe how to set up your automation testing tools(Depends on your tools). Please describe the step seems you have to share this code to anyone who without a background.
 3. After finished the quiz push the code to GitHub repository and send us a link.
