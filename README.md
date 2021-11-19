@@ -112,6 +112,10 @@ Example Response
 ```
   
 #### CHALLENGES!
-1. Use appropiate automation tools to create automation test script to testing this API Endpoint at least 10 test cases.
-2. Write the README file and describe how to set up your automation testing tools(Depends on your tools). Please describe the step seems you have to share this code to anyone who without a background.
-3. After finished the quiz push the code to GitHub repository and send us a link.
+1. Use appropiate automation tools to create automation test script follow the instruction (No need to executing the script)
+1.1 Create Test Script to testing this API Endpoint at least 10 test cases.
+1.2 Create Test Script loop to find "SKU0005" and print the value in log console or a file with the format
+    | SKU      | Qty     | updatedTime |
+    |----------|---------|-------------|
+    | <value>  | <value> | <value>     |
+2. After finished the quiz push the code to GitHub repository and send us a link.
